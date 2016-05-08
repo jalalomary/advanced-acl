@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 ShopGo. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:ShopGo_AdvancedAcl:etc/cache.xsd">
+    <users>
+        <user name="*" cache="default">
+            <exclude>support</exclude>
+        </user>
+    </users>
+    <cache id="default">
+        <types>
+            <type id="full_page" cache_dir="page_cache" disabled="1"/>
+        </types>
+        <additional>
+            <item id="media" disabled="1"/>
+            <item id="static_files" disabled="1"/>
+        </additional>
+    </cache>
+</config>

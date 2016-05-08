@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 ShopGo. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:ShopGo_AdvancedAcl:etc/menu.xsd">
+    <users>
+        <user name="*" menu="default">
+            <exclude>support</exclude>
+        </user>
+    </users>
+    <menu id="default">
+        <item id="Magento_Sales::system_order_statuses" resource="Magento_Sales::order_statuses" disabled="1"/>
+        <item id="ShopGo_AmazonSns::amazon_sns" resource="ShopGo_AmazonSns::amazon_sns" disabled="1"/>
+        <item id="Magento_Integration::system_extensions" resource="Magento_Integration::extensions" disabled="1"/>
+        <item id="Magento_User::system_acl" resource="Magento_User::acl" disabled="1"/>
+        <item id="Magento_Backend::other_settings" resource="Magento_Backend::stores_other_settings" disabled="1"/>
+        <item id="Magento_Backup::system_tools_backup" resource="Magento_Backup::backup" disabled="1"/>
+        <item id="Magento_Backend::setup_wizard" resource="Magento_Backend::setup_wizard" disabled="1"/>
+        <item id="Magento_Sitemap::catalog_sitemap" resource="Magento_Sitemap::sitemap" disabled="1"/>
+        <item id="Magento_UrlRewrite::urlrewrite" resource="Magento_UrlRewrite::urlrewrite" disabled="1"/>
+        <item id="Magento_Marketplace::partners" resource="Magento_Marketplace::partners" disabled="1"/>
+    </menu>
+</config>

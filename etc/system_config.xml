@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 ShopGo. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:ShopGo_AdvancedAcl:etc/system_config.xsd">
+    <users>
+        <user name="*" system="default">
+            <exclude>jalal@shopgo.me</exclude>
+        </user>
+    </users>
+    <system id="default">
+        <tab id="general">
+            <section id="general">
+                <group id="single_store_mode" disabled="1"/>
+            </section>
+            <section id="web" disabled="1"/>
+            <section id="design">
+                <group id="search_engine_robots" disabled="1"/>
+            </section>
+            <section id="currency">
+                <group id="webservicex" disabled="1"/>
+                <group id="yahoo" disabled="1"/>
+                <group id="google" disabled="1"/>
+                <group id="import" disabled="1"/>
+            </section>
+            <section id="cms" disabled="1"/>
+        </tab>
+        <tab id="catalog">
+            <section id="catalog">
+                <group id="fields_masks" disabled="1"/>
+                <group id="productalert" disabled="1"/>
+                <group id="productalert_cron" disabled="1"/>
+                <group id="search" disabled="1"/>
+                <group id="seo" disabled="1"/>
+                <group id="navigation" disabled="1"/>
+                <group id="custom_options" disabled="1"/>
+            </section>
+            <section id="sitemap" disabled="1"/>
+        </tab>
+        <tab id="customer">
+            <section id="customer">
+                <group id="address" disabled="1"/>
+                <group id="address_templates" disabled="1"/>
+            </section>
+            <section id="persistent" disabled="1"/>
+        </tab>
+        <tab id="shopgo">
+            <section id="amazon_sns" disabled="1"/>
+            <section id="limiter" disabled="1"/>
+            <section id="locker" disabled="1"/>
+            <section id="subscription" disabled="1"/>
+        </tab>
+        <tab id="sales">
+            <section id="sales" disabled="1"/>
+            <section id="sales_email" disabled="1"/>
+        </tab>
+        <tab id="service" disabled="1"/>
+        <tab id="advanced">
+            <section id="admin">
+                <group id="security" disabled="1"/>
+            </section>
+            <section id="system" disabled="1"/>
+            <section id="advanced" disabled="1"/>
+            <section id="dev" disabled="1"/>
+        </tab>
+    </system>
+</config>
