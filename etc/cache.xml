@@ -8,7 +8,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:ShopGo_AdvancedAcl:etc/cache.xsd">
     <users>
         <user name="*" cache="default">
-            <exclude>support</exclude>
+            <exclude>jalal@shopgo.me</exclude>
         </user>
     </users>
     <cache id="default">
