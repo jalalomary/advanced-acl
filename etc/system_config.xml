@@ -22,8 +22,6 @@
             </section>
             <section id="currency">
                 <group id="webservicex" disabled="1"/>
-                <group id="yahoo" disabled="1"/>
-                <group id="google" disabled="1"/>
                 <group id="import" disabled="1"/>
             </section>
             <section id="cms" disabled="1"/>
@@ -49,9 +47,7 @@
         </tab>
         <tab id="shopgo">
             <section id="amazon_sns" disabled="1"/>
-            <section id="limiter" disabled="1"/>
             <section id="locker" disabled="1"/>
-            <section id="subscription" disabled="1"/>
         </tab>
         <tab id="sales">
             <section id="sales" disabled="1"/>
